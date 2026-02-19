@@ -1,0 +1,12 @@
+{
+  "fire": {
+    "name" : "Fire",
+    "power" : 50,
+    "img" : ""
+  }
+  "water": {
+    "name" : "Water",
+    "power" : 50,
+    "img" : ""
+  }
+}
