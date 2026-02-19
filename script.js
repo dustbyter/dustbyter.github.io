@@ -4,6 +4,10 @@ const game = new Phaser.Game({
     width: 1900,
     height: 800,
     backgroundColor: "#1a1a1a",
+    scale {
+        mode: Phaser.scale.FIT, 
+        autocenter: Phaser.scale.CENTER_BOTH 
+    },  
     scene: {
     }
 });
