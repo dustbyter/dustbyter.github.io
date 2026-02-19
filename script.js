@@ -1,7 +1,7 @@
 console.log("I have no clue what any of these words mean anymore. This is pure muscle memory");
 const game = new Phaser.Game({
     type: Phaser.AUTO,
-    width: 1200,
+    width: 1900,
     height: 800,
     backgroundColor: "#1a1a1a",
     scene: {
