@@ -1,5 +1,5 @@
 console.log("I have no clue what any of these words mean anymore. This is pure muscle memory");
-const game = new Phaser.Game({
+var game = new Phaser.Game({
     type: Phaser.AUTO,
     width: 1000,
     height: 800,
