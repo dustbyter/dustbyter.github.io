@@ -3,7 +3,7 @@ const game = new Phaser.Game({
     type: Phaser.AUTO,
     width: 1900,
     height: 800,
-    backgroundColor: "#1a1a1a",
+    backgroundColor: "#339933",
     scale {
         mode: Phaser.scale.FIT, 
         autocenter: Phaser.scale.CENTER_BOTH 
