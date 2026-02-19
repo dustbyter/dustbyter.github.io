@@ -4,6 +4,9 @@ var game = new Phaser.Game({
     width: 1000,
     height: 800,
     backgroundColor: "#339933",
+    scale {
+        autoCenter: Phaser.Scale.CENTER_BOTH 
+    },  
     scene: {
     }
 });
