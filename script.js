@@ -6,7 +6,7 @@ const game = new Phaser.Game({
     backgroundColor: "#339933",
     scale {
         mode: Phaser.scale.FIT, 
-        autocenter: Phaser.scale.CENTER_BOTH 
+        autoCenter: Phaser.scale.CENTER_BOTH 
     },  
     scene: {
     }
