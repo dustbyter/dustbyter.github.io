@@ -2,11 +2,11 @@ console.log("I have no clue what any of these words mean anymore. This is pure m
 var game = new Phaser.Game({
     type: Phaser.AUTO,
     width: 800,
-    height: 600,
+    height: 300,
     backgroundColor: "#339933",
     scale {
         mode: Phaser.Scale.FIT,
-        autoCenter: Phaser.Scale.CENTER_BOTH 
+        autoCenter: Phaser.Scale.CENTER_BOTH,
     },  
     scene: {
     }
