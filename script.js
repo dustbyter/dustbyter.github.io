@@ -9,5 +9,14 @@ var game = new Phaser.Game({
         autoCenter: Phaser.Scale.CENTER_BOTH,
     },  
     scene: {
+        create
     }
 });
+
+function create() {
+    this.add.text(100, 100, "pls center", {
+        fontSize: "32px",
+        color: "#ffffff",
+    });
+}
+        
