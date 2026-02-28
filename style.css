@@ -1,5 +1,6 @@
 body {
-  background-color: #3A2A00;
+  background-color: #6B4A00;
+  outline: 5px solid yellow;
 }
 @font-face {
   font-family: "Runes";
