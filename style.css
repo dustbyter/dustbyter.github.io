@@ -72,7 +72,7 @@ body {
   color: Crimson;
   border: 3px solid DarkGoldenRod;
 }
-submitname {
+#submitname {
   padding: 8px 12px
   font-size: 1.75rem;
   border-radius: 12px;
