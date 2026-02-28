@@ -1,5 +1,5 @@
 body {
-  background-color: #DEB887;
+  background-color: BurlyWood;
 }
 
 @font-face {
@@ -9,6 +9,7 @@ body {
 
 .runes {
   font-family: "Forgore";
+  color: CadetBlue;
 }
 
 
