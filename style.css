@@ -12,4 +12,12 @@ body {
   color: CadetBlue;
 }
 
+.center {
+  text-align: center;
+}
+
+.down {
+  margin-top: 80 px;
+}
+
 
