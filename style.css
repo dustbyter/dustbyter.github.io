@@ -55,6 +55,7 @@ body {
   font-size: 1.5rem;
   border-radius: 8px;
   font-family: "Forgore";
+  justify-content: center;
 }
 .portrait {
   width: 150px;
