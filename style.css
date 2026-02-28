@@ -59,5 +59,26 @@ body {
   width: 150px;
   height: auto;
 }
+#namewrap {
+  display: flex;
+  gap: 10 px;
+  margin-top: 50vh;
+}
+#name {
+  padding: 8px 12px;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  font-family: "Forgore";
+  color: Crimson;
+  border: 3px solid DarkGoldenRod;
+}
+submitname {
+  padding: 8px 12px
+  font-size: 1.75rem;
+  border-radius: 12px;
+  font-family: "Forgore";
+  color: white;
+}
+
   
   
