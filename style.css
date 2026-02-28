@@ -20,7 +20,10 @@ body {
   margin-top: 45vh;
 }
 
-h1 {
-  margin: 0;
-}
+.readybutton {
+  background-color: DarkSlateGray;
+  padding: 15px 30px;
+  font-size: 1.2 rem;
+  border-radius: 8px;
+
 
