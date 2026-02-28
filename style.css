@@ -12,6 +12,10 @@ body {
   color: DarkGoldenRod;
 }
 
+.introtext {
+  font-size: 3 rem;
+}
+
 .center {
   text-align: center;
 }
