@@ -47,6 +47,7 @@ body {
   font-size: 1.75rem;
   color: DarkGoldenRod;
   min-height: 3em;
+  justify-content: center;
 }
 #nextbutton {
   color: white;
