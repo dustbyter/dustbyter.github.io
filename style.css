@@ -79,6 +79,12 @@ body {
   font-family: "Forgore";
   color: white;
 }
-
+#namestep {
+  display: none;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+  
   
   
