@@ -11,19 +11,15 @@ body {
   font-family: "Forgore";
   color: DarkGoldenRod;
 }
-
 .introtext {
   font-size: 3 rem;
 }
-
 .center {
   text-align: center;
 }
-
 .down {
   margin-top: 45vh;
 }
-
 .readybutton {
   background-color: DarkSlateGray;
   padding: 15px 30px;
