@@ -42,13 +42,13 @@ body {
   border: 3px solid LightPink;
   max-width: 400px;
 }
-.dialoguetext {
+#dialoguetext {
   font-family: "Forgore";
   font-size: 1.75rem;
   color: DarkGoldenRod;
   min-height: 3em;
 }
-.nextbutton {
+#nextbutton {
   color: white;
   background-color: DarkGoldenRod;
   padding: 15px 30px;
