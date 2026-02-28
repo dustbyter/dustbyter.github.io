@@ -48,8 +48,8 @@ next.addEventListener("click", () => {
   }
 
   if (i <lines.length) {
-    const line = lines[i].replace"{{name}}", playerName);
-    typeLine(line);
+    const line = lines[i].replace("{{name}}", playerName);
+    typingLine(line);
   }
   else {
     next.style.display = "none";
@@ -63,8 +63,8 @@ submitName.addEventListener("click", () => {
   nameStep.style.display = "none"; 
   next.style.display = "block"; 
   i++;
-  const line = lines[i].replace"{{name}}", playerName);
-  typeLine(line);
+  const line = lines[i].replace("{{name}}", playerName);
+  typingLine(line);
 });
 
-typeLine(lines[0]);
+typingLine(lines[0]);
