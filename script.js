@@ -43,7 +43,7 @@ next.addEventListener("click", () => {
   if (lines[i] == "ASK_NAME") {
     text.textContent = "What is your name?";
     next.style.display = "none";
-    nameStep.style.display = "block";
+    playerStep.style.display = "block";
     return;
   }
 
@@ -54,13 +54,13 @@ next.addEventListener("click", () => {
   else {
     next.style.display = "none";
   }
-}};
+});
 
 submitName.addEventListener("click", () => {
   const name = nameInput.value.trim();
   if (!name) return;
   playerName = name;
-  nameStep.style.display = "none"; 
+  playerStep.style.display = "none"; 
   next.style.display = "block"; 
   i++;
   const line = lines[i].replace("{{name}}", playerName);
