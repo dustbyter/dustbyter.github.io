@@ -62,11 +62,6 @@ body {
   width: 150px;
   height: auto;
 }
-#namewrap {
-  display: flex;
-  gap: 10 px;
-  margin-top: 50vh;
-}
 #name {
   padding: 8px 12px;
   font-size: 1.5rem;
