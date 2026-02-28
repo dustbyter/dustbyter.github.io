@@ -21,6 +21,8 @@ body {
   margin-top: 45vh;
 }
 .readybutton {
+  font-family: "Forgore";
+  color: DarkGoldenRod;
   background-color: DarkSlateGray;
   padding: 15px 30px;
   font-size: 3 rem;
