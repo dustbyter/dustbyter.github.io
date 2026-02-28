@@ -9,10 +9,10 @@ body {
 
 .runes {
   font-family: "Forgore";
-  color: DarkGoldenRod;
 }
 .introtext {
   font-size: 3rem;
+  color: DarkGoldenRod;
 }
 .center {
   text-align: center;
@@ -21,9 +21,8 @@ body {
   margin-top: 45vh;
 }
 .readybutton {
-  font-family: "Forgore";
-  color: DarkGoldenRod;
-  background-color: DarkSlateGray;
+  color: white;
+  background-color: DarkGoldenRod;
   padding: 15px 30px;
   font-size: 1.75rem;
   border-radius: 8px;
