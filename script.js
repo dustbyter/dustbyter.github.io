@@ -9,11 +9,11 @@ let typing = false;
 let interval;
 let playerName = "";
 
-const text = document.getElementByID("dialoguetext");
-const next = document.getElementByID("nextbutton");
-const playerStep =  document.getElementByID("namestep");
-const nameInput = document.getElementByID("name");
-const submitName = document.getElementByID("submitname");
+const text = document.getElementById("dialoguetext");
+const next = document.getElementById("nextbutton");
+const playerStep =  document.getElementById("namestep");
+const nameInput = document.getElementById("name");
+const submitName = document.getElementById("submitname");
 
 function typingLine(line) {
         typing = true;
@@ -21,9 +21,9 @@ function typingLine(line) {
         let j = 0;
 
         interval = setInterval (() => {
-                text.textContent += line[c];
-                c++
-                if (c == line.length) {
+                text.textContent += line[j];
+                j++
+                if (j == line.length) {
                         clearInterval(interval);
                         typing = false;
                 }
