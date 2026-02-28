@@ -1,3 +1,14 @@
 body {
   background-color: #DEB887;
 }
+
+@font-face {
+  font-family: "Forgore";
+  src: url("assets/texts/Forgore.otf") format("opentype");
+}
+
+.runes {
+  font-family: "Forgore";
+}
+
+
