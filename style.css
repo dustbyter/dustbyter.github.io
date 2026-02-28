@@ -3,5 +3,5 @@ body {
 }
 @font-face {
   font-family: "Runes";
-  src: "dustbyter.github.io/assets/fonts/";
+  src: url("assets/texts/Forgore.otf") format("opentype");
 }
