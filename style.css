@@ -95,6 +95,11 @@ body {
   border-radius: 8px;
 }
 #dioboxpg2 {
+  font-family: "Forgore";
+  font-size: 1.75rem;
+  color: DarkGoldenRod;
+  min-height: 3em;
+  justify-content: center;
 }
   
   
