@@ -84,6 +84,16 @@ body {
   gap: 10px;
   justify-content: center;
 }
+#start {
+  display: none;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: DarkGoldenRod;
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  border-radius: 8px;
+}
   
   
   
