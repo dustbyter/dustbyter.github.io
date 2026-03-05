@@ -16,6 +16,7 @@ const nameInput = document.getElementById("name");
 const submitName = document.getElementById("submitname");
 const image = document.getElementById("portrait");
 const start = document.getElementById("start");
+const box = document.getElementByID("dioboxpg2");
 
 function typingLine(line) {
         typing = true;
@@ -57,6 +58,7 @@ next.addEventListener("click", () => {
     next.style.display = "none";
     text.style.display = "none";
     image.style.display = "none";
+    box.style.display = "none";
     start.style.display = "block";
     
   }
