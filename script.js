@@ -16,7 +16,7 @@ const nameInput = document.getElementById("name");
 const submitName = document.getElementById("submitname");
 const image = document.getElementById("portrait");
 const start = document.getElementById("start");
-const box = document.getElementByID("dioboxpg2");
+const box = document.getElementById("dioboxpg2");
 
 function typingLine(line) {
         typing = true;
