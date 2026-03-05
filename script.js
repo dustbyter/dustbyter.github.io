@@ -15,6 +15,7 @@ const playerStep =  document.getElementById("namestep");
 const nameInput = document.getElementById("name");
 const submitName = document.getElementById("submitname");
 const image = document.getElementById("portrait");
+const start = document.getElementById("start");
 
 function typingLine(line) {
         typing = true;
@@ -56,7 +57,7 @@ next.addEventListener("click", () => {
     next.style.display = "none";
     text.style.display = "none";
     image.style.display = "none";
-    
+    start.style.display = "block";
     
   }
 });
