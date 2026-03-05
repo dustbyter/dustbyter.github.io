@@ -58,7 +58,7 @@ body {
   font-family: "Forgore";
   justify-content: center;
 }
-.portrait {
+#portrait {
   width: 150px;
   height: auto;
 }
