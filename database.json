@@ -1,10 +1,9 @@
 [
   {
-    "category": "math",
-    "prompt": "",
-    "image": "",
-    "choices": ["",""],
-    "answer": 0,
-    "reward": "",
+    "id": 1,
+    "prompt": "(60/10) - 8",
+    "choices": ["2", "6", "-2", "4"],
+    "answer": 2,
+    "reward": "fire_essence",
   }
 ]
