@@ -114,5 +114,27 @@ body {
   gap: 10px;
   z-index: 1000;
 }
+#overlay {
+  position: fixed;
+  inset: 30px;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-elements: center;
+  z-index: 2000;
+}
+#overlayall {
+  background: DarkSalmon;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 450px;
+  text-align: center;
+  font-family: "Forgore";
+}
+#overlay-portrait {
+  width: 150px;
+  margin-bottom: 15px;
   
-  
+#overlay-text {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
