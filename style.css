@@ -138,4 +138,12 @@ body {
 #overlaytext {
   font-size: 1.75rem;
   margin-bottom: 20px;
-  
+}
+#continue {
+  color: white;
+  background-color: DarkGoldenRod;
+  padding: 15px 30px;
+  font-size: 1.75rem;
+  border-radius: 8px;
+  font-family: "Forgore";
+}
