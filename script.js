@@ -90,6 +90,9 @@ function loseLives() {
   }
 }
 
+document.getElementById("continue").onclick = () => {
+  document.getElementById("overlay".style.display = "none";
+};
 
 
 
