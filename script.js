@@ -84,6 +84,12 @@ let lives = 3;
 let questions = [];
 let currentQ = 0;
 
+const questionText = document.getElementById("question");
+
+document.getElementById("continue").onclick = () => {
+  document.getElementById("overlay").style.display = "none";
+};
+
 function loseLives() {
   if (lives > 0) {
     lives--;
@@ -93,12 +99,9 @@ function loseLives() {
 }
 
 function showQuestion() {
-  const q = questions[currentQ];
+  const q = questions[currentQ]
+  questionText.textContent = q;
 }
-
-document.getElementById("continue").onclick = () => {
-  document.getElementById("overlay").style.display = "none";
-};
 
 fetch("database.json")
 .then (res => res.json())
@@ -106,3 +109,5 @@ fetch("database.json")
   questions = data;
   showQuestion();
 })
+
+
