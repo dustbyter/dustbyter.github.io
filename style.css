@@ -162,4 +162,11 @@ body {
   background-color: DarkGoldenRod;
   color: white;
 } 
-  
+#inventory {
+  color: white;
+  background-color: DarkGoldenRod;
+  padding: 15px 30px;
+  font-size: 1.75rem;
+  border-radius: 8px;
+  font-family: "Forgore";
+}
