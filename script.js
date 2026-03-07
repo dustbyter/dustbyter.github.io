@@ -112,7 +112,7 @@ if (document.getElementById("question")) {
       hearts[lives].style.opacity = 0;
     }
   }
-
+  
   function showQuestion() {
     const q = questions[currentQ]
     questionText.textContent = q.prompt;
