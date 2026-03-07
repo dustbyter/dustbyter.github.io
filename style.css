@@ -185,14 +185,6 @@ body {
   gap: 10px;
   z-index: 1000;
 } 
-#submitbutton {
-  color: white;
-  background-color: DarkGoldenRod;
-  padding: 15px 30px;
-  font-size: 1.75rem;
-  border-radius: 8px;
-  font-family: "Forgore";
-}
 #answerbox {
   width: 60%;
   margin: 20px auto;
