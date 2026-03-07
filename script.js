@@ -85,6 +85,18 @@ let questions = [];
 let currentQ = 0;
 
 const questionText = document.getElementById("question");
+const potions = { 
+  aura_essence: "assets/potions/aura.png",
+  balance_essence: "assets/potions/balance.png",
+  dream_essence: "assets/potions/dream.png",
+  fire_essence: "assets/potions/fire.png",
+  fortune_essence: "assets/potions/fortune.png",
+  moon_essence: "assets/potions/moon.png",
+  ocean_essence: "assets/potions/ocean.png",
+  royal_essence: "assets/potions/royal.png",
+  sunlight_essence: "assets/potions/sunlight.png",
+  truth_essence: "assets/potions/truth.png",
+}
 
 document.getElementById("continue").onclick = () => {
   document.getElementById("overlay").style.display = "none";
@@ -100,7 +112,46 @@ function loseLives() {
 
 function showQuestion() {
   const q = questions[currentQ]
-  questionText.textContent = q;
+  questionText.textContent = q.prompt;
+  displayOption(q);
+}
+
+function givePotion(rewardName) {
+  const popup = document.getElementById("reward");
+  popup.innerHTML = "";
+
+  const img = document.createElement("img");
+  img.src = potions[rewardName];
+  img.classList.add("reward-img");
+  popup.appendChild(img);
+
+  setTimeout(() => {
+    img.style.opacity = 0;
+  }, 2000);
+
+  setTimeout(() => {
+    popup.innerHTML = "";
+  }, 3000);
+}
+  
+function displayOption(q) {
+  const box = document.getElementById("answerbox");
+  box.innerHTML = "";
+
+  q.choices.forEach((choices, index) => {
+    const button = document.createElement("button");
+    button.classList.add("answeroption");
+    button.textContent = choice;
+    button.onclick = () => {
+      if (index == q.answer) {
+        givePotion(q.reward);
+      }
+      else {
+        loseLives();
+      }
+    };
+    box.appendChild(button);
+  });
 }
 
 fetch("database.json")
