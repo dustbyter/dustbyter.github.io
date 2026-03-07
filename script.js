@@ -97,15 +97,13 @@ if (document.getElementById("question")) {
     sunlight_essence: "assets/potions/sunlight.png",
     truth_essence: "assets/potions/truth.png",
   }
-  
-  document.addEventListener("DOMContentLoaded", () => {
-    const btn = document.getElementById("continue");
-    if (btn) {
-      btn.addEventListener("click", () => {
-        document.getElementById("overlay").style.display = "none";
-      });
-    }
-  });
+
+  const btn = document.getElementById("continue");
+  if (btn) {
+    btn.addEventListener("click", () => {
+      document.getElementById("overlay").style.display = "none";
+    });
+  }
 
   function loseLives() {
     if (lives > 0) {
@@ -169,3 +167,4 @@ if (document.getElementById("question")) {
     questions = data;
     showQuestion();
   })
+}
