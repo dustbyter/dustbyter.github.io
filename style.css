@@ -131,10 +131,10 @@ body {
   text-align: center;
   font-family: "Forgore";
 }
-#overlay-portrait {
+#overlayportrait {
   width: 150px;
   margin-bottom: 15px;
   
-#overlay-text {
+#overlaytext {
   font-size: 1.3rem;
   margin-bottom: 20px;
