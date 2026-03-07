@@ -5,245 +5,238 @@
     "choices": ["2", "6", "-2", "4"],
     "answer": 2,
     "reward": "fire_essence"
-  }
+  },
   {
     "id": 2,
     "prompt": "234+567",
     "choices": ["801","803", "791", "805"],
     "answer": 0,
     "reward": "moon_essence"
-  }
+  },
   {
     "id": 3,
     "prompt": "150-75",
     "choices": ["60", "67", "64", "75"],
     "answer": 3,
     "reward": "aura_essence"
-  }
+  },
   {
     "id": 4,
     "prompt": "Sarah has 5 times as many marbles as Tom. If Tom has 8 marbles, how many does Sarah have?",
     "choices": ["40", "45", "90","80"],
     "answer": 0,
     "reward": "balance_essence"
-  }
+  },
   {
     "id": 5,
     "prompt": "What is the product of 36 and 25?",
     "choices": ["855", "900", "905", "1000"],
     "answer": 1,
     "reward": "ocean_essence"
-  }
+  },
   {
     "id": 6,
     "prompt": "A train travels 60 miles in 1 hour. How far will it travel in 3 hours?",
     "choices": ["100", "190", "180", "200"],
     "answer": 2,
     "reward": "royal_essence"
-  }
-  {
-    "id":,
-    "prompt": "What is the biggest mammal in the world?",
-    "choices": ["Giraffe", "Blue Whale", "Elephant", "Hippopotamus"],
-    "answer": 1,
-    "reward": "sunlight_essence"
-  }
+  },
   {
     "id": 7,
     "prompt": "What is the result of 105 divided by 7?",
     "choices": ["15", "17", "16", "14"],
     "answer": 0,
     "reward": "truth_essence"
-  }
+  },
   {
     "id": 8,
     "prompt": "If a rectangle has a length of 12 units and a width of 6 units, what is its area?",
     "choices": ["70", "80", "74", "72"],
     "answer": 3,
     "reward": "dream_essence"
-  }
+  },
   {
     "id": 9,
     "prompt": "What is the next prime number after 31?",
     "choices": ["32", "35", "37", "33"],
     "answer": 2,
     "reward": "fortune_essence"
-  }
+  },
   {
     "id": 10,
-    "prompt":,
-    "choices": [],
+    "prompt": "What is the biggest mammal in the world?",
+    "choices": ["Giraffe", "Blue Whale", "Elephant", "Hippopotamus"],
     "answer": 1,
     "reward": "aura_essence"
-  }
+  },
   {
     "id": 11,
     "prompt": "How many degrees are in a right angle?",
     "choices": ["95", "80", "85", "90"],
     "answer": 3,
     "reward": "balance_essence"
-  }
+  },
   {
     "id": 12,
     "prompt": "What is the perimeter of a square with sides of length 8 units?",
     "choices": ["30", "36", "32", "34"],
     "answer": 2,
     "reward": "dream_essence"
-  }
+  },
   {
     "id": 13,
     "prompt": "How many inches are in a foot?",
     "choices": ["12", "14", "10", "13"],
     "answer": 0,
     "reward": "fire_essence"
-  }
+  },
   {
     "id": 14,
     "prompt": "If a number is divisible by 2 and 3, what other number is it automatically divisible by?",
     "choices": ["4", "7", "8", "6"],
     "answer": 3,
     "reward": "fortune_essence"
-  }
+  },
   {
     "id": 15,
     "prompt": "How many sides does an octagon have?",
     "choices": ["7", "6", "9", "8"],
     "answer": 3,
     "reward": "moon_essence"
-  }
+  },
   {
     "id": 16,
     "prompt": "What is the result of 48 divided by 6?",
     "choices": ["8", "9", "7", "6"],
     "answer": 0,
     "reward": "ocean_essence"
-  }
+  },
   {
     "id": 17,
     "prompt": "If a square has a side length of 7 units, what is its area?",
     "choices": ["40", "49", "48", "64"],
     "answer": 1,
     "reward": "royal_essence"
-  }
+  },
   {
     "id": 18,
     "prompt": "If a rectangle has a length of 10 units and a width of 4 units, what is its perimeter?",
     "choices": ["20", "26", "28", "30"],
     "answer": 2,
     "reward": "sunlight_essence"
-  }
+  },
   {
     "id": 19,
     "prompt": "What is the result of 98 divided by 7?",
     "choices": ["40", "92", "90", "14"],
     "answer": 3,
     "reward": "truth_essence"
-  }
+  },
   {
     "id": 20,
     "prompt": "What is the sum of the interior angles of a triangle?",
     "choices": ["175", "180", "200", "210"],
     "answer": 1,
     "reward": "fire_essence"
-  }
+  },
   {
     "id": 21,
     "prompt": "How many faces does a cube have?",
     "choices": ["5", "4", "2", "6"],
     "answer": 3,
     "reward": "royal_essence"
-  }
+  },
   {
     "id": 22,
     "prompt": "What is the result of 36 divided by 9?",
     "choices": ["2", "4", "6", "7"],
     "answer": 1,
     "reward": "truth_essence"
-  }
+  },
   {
     "id": 23,
     "prompt": "What is the value of 10 to the power of 2?",
     "choices": ["1000", "150", "125", "100"],
     "answer": 3,
     "reward": "balance_essence"
-  }
+  },
   {
     "id": 24,
     "prompt": "What is the result of 63 plus 37?",
     "choices": ["110", "140", "100", "90"],
     "answer": 2,
     "reward": "dream_essence"
-  }
+  },
   {
     "id": 25,
     "prompt": "What is the sum of the first 100 counting numbers?",
     "choices": ["5000", "5050", "5060", "10100"],
     "answer": 1,
     "reward": "ocean_essence"
-  }
+  },
   {
     "id": 26,
     "prompt": "Which planet is known as the “Red Planet”?",
     "choices": ["Earth", "Mars", "Jupiter", "Uranus"],
     "answer": 1,
     "reward": "royal_essence"
-  }
+  },
   {
     "id": 27,
     "prompt": "What is the most abundant gas in the Earth’s atmosphere?",
     "choices": ["Nitrogen", "Oxygen", "Helium", "Hydrogen"],
     "answer": 0,
     "reward": "fortune_essence"
-  }
+  },
   {
     "id": 28,
     "prompt": "What is the outermost layer of the Earth called?",
     "choices": ["Crust", "Upper Mantle", "Inner Core", "Outer Core"],
     "answer": 0,
     "reward": "balance_essence"
-  }
+  },
   {
     "id": 29,
     "prompt": "What gas do plants primarily absorb from the atmosphere?",
     "choices": ["Carbon Dioxide", "Oxygen", "Helium", "Hydrogen"],
     "answer": 0,
     "reward": "aura_essence"
-  }
+  },
   {
     "id": 30,
     "prompt": "What is the process of liquid turning into vapor?",
     "choices": ["Evaporation", "Condensation", "Boiling", "Melting"],
     "answer": 0,
     "reward": "truth_essence"
-  }
+  },
   {
     "id": 31,
     "prompt": "What is the closest star to Earth?",
     "choices": ["Proxima Centauri", "Barnard's Star", "Sun", "Sirius"],
     "answer": 2,
     "reward": "moon_essence"
-  }
+  },
   {
     "id": 32,
     "prompt": "What is the study of fossils called?",
     "choices": ["Arthrology", "Anthropology", "Paleontology", "Geology"],
     "answer": 2,
     "reward": "dream_essence"
-  }
+  },
   {
     "id": 33,
     "prompt": "What is the center of an atom called?",
     "choices": ["Mitochondria", "Nucleus", "DNA", "Lysosome"],
     "answer": 1,
     "reward": "moon_essence"
-  }
+  },
   {
     "id": 34,
     "prompt": "What force keeps us tethered to Earth?",
     "choices": ["Tension", "Gravity", "Electromagnetism", "Nuclear"],
     "answer": 1,
     "reward": "sunlight_essence"
-  }
+  },
   {
     "id": 35,
     "prompt": "Which part of the computer is known as the brain?",
