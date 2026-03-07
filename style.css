@@ -134,7 +134,7 @@ body {
 #overlayportrait {
   width: 150px;
   margin-bottom: 15px;
-  
+}
 #overlaytext {
   font-size: 1.75rem;
   margin-bottom: 20px;
@@ -147,3 +147,19 @@ body {
   border-radius: 8px;
   font-family: "Forgore";
 }
+#question {
+    font-family: "Forgore";
+  font-size: 1.75rem;
+  color: DarkGoldenRod;
+  min-height: 3em;
+  justify-content: center;
+}
+#submitbutton {
+  padding: 8px 12px
+  font-size: 1.75rem;
+  border-radius: 12px;
+  font-family: "Forgore";
+  background-color: DarkGoldenRod;
+  color: white;
+} 
+  
