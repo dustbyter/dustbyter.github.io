@@ -122,7 +122,7 @@ function givePotion(rewardName) {
 
   const img = document.createElement("img");
   img.src = potions[rewardName];
-  img.classList.add("reward-img");
+  img.classList.add("rewardimg");
   popup.appendChild(img);
 
   setTimeout(() => {
