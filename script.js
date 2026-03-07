@@ -1,5 +1,6 @@
 console.log("I have no clue what any of these words mean anymore. This is pure muscle memory");
 
+//javascript for page 2
 
 const lines = ["Welcome, alchemist.", "But first, let me introduce myself.", "I am Anna, the grand alchemist, and I have been assigned to help you on your journey today."
              , "Before we can begin, introduce yourself.", "ASK_NAME", "Nice to meet you, {{name}}", "Now, we must go to your new tavern, {{name}}"
@@ -76,3 +77,19 @@ submitName.addEventListener("click", () => {
 });
 
 typingLine(lines[0]);
+
+// javascript for page3 (actual questions)
+
+let lives = 3;
+
+function loseLives() {
+  if (lives > 0) {
+    lives--;
+    const hearts = document.querySelectorAll("#lives .heart");
+    hearts[lives].style.opacity = 0;
+  }
+}
+
+
+
+
