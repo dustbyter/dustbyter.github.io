@@ -81,6 +81,8 @@ typingLine(lines[0]);
 // javascript for page3 (actual questions)
 
 let lives = 3;
+let questions = [];
+let currentQ = 0;
 
 function loseLives() {
   if (lives > 0) {
@@ -90,9 +92,17 @@ function loseLives() {
   }
 }
 
+function showQuestion() {
+  const q = questions[currentQ];
+}
+
 document.getElementById("continue").onclick = () => {
   document.getElementById("overlay").style.display = "none";
 };
 
-
-
+fetch("database.json")
+.then (res => res.json())
+.then (data => {
+  questions = data;
+  showQuestion();
+})
