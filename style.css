@@ -91,7 +91,6 @@ body {
 }
 #start {
   display: none;
-  display: flex;
   justify-content: center;
   color: white;
   background-color: DarkGoldenRod;
