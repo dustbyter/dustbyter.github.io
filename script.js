@@ -98,9 +98,14 @@ const potions = {
   truth_essence: "assets/potions/truth.png",
 }
 
-document.getElementById("continue").onclick = () => {
-  document.getElementById("overlay").style.display = "none";
-};
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById("continue");
+  if (btn) {
+    btn.addEventListener("click", () => {
+      document.getElementById("overlay").style.display = "none";
+    });
+  }
+});
 
 function loseLives() {
   if (lives > 0) {
