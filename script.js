@@ -141,13 +141,17 @@ function displayOption(q) {
   q.choices.forEach((choices, index) => {
     const button = document.createElement("button");
     button.classList.add("answeroption");
-    button.textContent = choice;
+    button.textContent = choices;
     button.onclick = () => {
       if (index == q.answer) {
         givePotion(q.reward);
       }
       else {
         loseLives();
+      }
+      currentQ++;
+      if (currentQ < questions.length) {
+        showQuestion();
       }
     };
     box.appendChild(button);
