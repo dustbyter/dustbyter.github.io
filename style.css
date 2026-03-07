@@ -124,7 +124,7 @@ body {
   z-index: 2000;
 }
 #overlayall {
-  background: DarkSalmon;
+  background: rgba (233, 150, 122, 0.6);
   padding: 30px;
   border-radius: 12px;
   max-width: 450px;
@@ -136,5 +136,6 @@ body {
   margin-bottom: 15px;
   
 #overlaytext {
-  font-size: 1.3rem;
+  font-size: 1.75rem;
   margin-bottom: 20px;
+  
