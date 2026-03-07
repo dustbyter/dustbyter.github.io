@@ -154,7 +154,7 @@ body {
   min-height: 3em;
   justify-content: center;
 }
-#submitbutton {
+#inventory {
   padding: 8px 12px
   font-size: 1.75rem;
   border-radius: 12px;
@@ -162,7 +162,7 @@ body {
   background-color: DarkGoldenRod;
   color: white;
 } 
-#inventory {
+#submitbutton {
   color: white;
   background-color: DarkGoldenRod;
   padding: 15px 30px;
