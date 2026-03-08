@@ -170,9 +170,11 @@ if (document.getElementById("question")) {
       button.onclick = () => {
         if (index == q.answer) {
           givePotion(q.reward);
-          randMess1 = messOpsGoodResult[Math.floor(Math.random()*messOpsGoodResult.length)];
-          potionName = potionNames[q.reward];
-          result(randMess1 + potionName);
+          setTimeout() => {
+            randMess1 = messOpsGoodResult[Math.floor(Math.random()*messOpsGoodResult.length)];
+            potionName = potionNames[q.reward];
+            result(randMess1 + potionName);
+          }, 1000);
         }
         else {
           loseLives();
