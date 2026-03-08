@@ -80,6 +80,11 @@ if (document.getElementById("dialoguetext")) {
 }
 // javascript for page3 (actual questions)
 if (document.getElementById("question")) {
+
+  var potionName = ""; 
+  var randMess1 = "";
+  var randMess2 = "";
+  
   let lives = 3;
   let questions = [];
   let currentQ = 0;
@@ -97,13 +102,30 @@ if (document.getElementById("question")) {
     sunlight_essence: "assets/potions/sunlight.png",
     truth_essence: "assets/potions/truth.png",
   }
-
-  const btn = document.getElementById("continue");
-  if (btn) {
-    btn.addEventListener("click", () => {
-      document.getElementById("overlay").style.display = "none";
-    });
+  const potionNames = {
+    aura_essence: "Elixir of Dawn",
+    balance_essence: "Aequilibrs", 
+    dream_essence: "",
+    fire_essence: "Ferruous Incidate",
+    fortune_essence: "",
+    moon_essence: "",
+    ocean_essence: "",
+    royal_essence: "Draught of Victory",
+    sunlight_essence: "Sawelix Tincture",
+    truth_essence: "",
   }
+  const messOpsGoodResult = ["Success! The potion bubbles and shimmers softly... you made the ", "Amazing work! The hues look amazing for the ", 
+                             "Beautiful! Please teach me how to make the ", "Gorgeous masterpiece of a potion! You made the ", 
+                             "Incredible! You're well on your way to becoming the next master of the ", "Splendid demonstration! You made the "];
+  const messOpsBadResult = ["Oh no... the potion bursts in your face and your protective charms snap into action. One down...", 
+                            "Yikes! That can't be good, your lab is now covered in bright glitter!", "Uh-oh... your protective charms seem to be working overtime"];
+  const btn = document.getElementById("continue");
+  const resultPop =  document.getElementById("resultpopup");
+  const resultMessage = document.getElementById("resultmessage");
+  const resultContinue = document.getElementById("resultcontinue");
+  const endPop = document.getElementById("endpopup");
+  const endMessage = document.getElementById("endmessage");
+  const restart = document.getElementById("restart");
 
   function loseLives() {
     if (lives > 0) {
@@ -148,17 +170,41 @@ if (document.getElementById("question")) {
       button.onclick = () => {
         if (index == q.answer) {
           givePotion(q.reward);
+          randMess1 = messOpsGoodResult[Math.floor(Math.random()*messOpsGoodResult.length)];
+          potionName = potionNames[q.reward];
+          result(randMess1 + potionName);
         }
         else {
           loseLives();
+          if (lives == 0) {
+            ending("You lost all of your protection charms. Better luck next time... restart?");
+            return;
+          }
+          else {
+            randMess2 = messOpsBadResult[Math.floor(Math.random()*messOpsBadResult.length)];
+            result(randMess2);
+          }
         }
         currentQ++;
+        
         if (currentQ < questions.length) {
           showQuestion();
         }
-      };
+        else {
+          ending("Congratulations, alchemist! You've completed your apprenticeship, and perhaps, you're a better alchemist than me...");
+        };
       box.appendChild(button);
     });
+  }
+
+  function result(message) {
+    resultMessage.textContent = message;
+    resultPop.classList.remove("hidden");
+  }
+
+  function ending(message) {
+    endMessage.textContent = message;
+    endPop.classList.remove("hidden");
   }
   
   fetch("database.json")
@@ -167,4 +213,19 @@ if (document.getElementById("question")) {
     questions = data;
     showQuestion();
   })
+
+  if (btn) {
+    btn.addEventListener("click", () => {
+      document.getElementById("overlay").style.display = "none";
+    });
+  }
+
+  resultContinue.addEventListener("click", () => {
+    resultPop.classList.add("hidden");
+    showQuestion();
+  });
+
+  restart.addEventListener("click", () => {
+    window.location.reload();
+  });
 }
