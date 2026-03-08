@@ -103,16 +103,16 @@ if (document.getElementById("question")) {
     truth_essence: "assets/potions/truth.png",
   }
   const potionNames = {
-    aura_essence: "Elixir of Dawn",
+    aura_essence: "Sanus Ralym",
     balance_essence: "Aequilibrs", 
-    dream_essence: "",
+    dream_essence: "Lavender Lullaby",
     fire_essence: "Ferruous Incidate",
-    fortune_essence: "",
-    moon_essence: "",
-    ocean_essence: "",
-    royal_essence: "Draught of Victory",
+    fortune_essence: "Prophecy Ink",
+    moon_essence: "Luna Dimidiata",
+    ocean_essence: "Saiwaz Mar",
+    royal_essence: "Roilate Heredis",
     sunlight_essence: "Sawelix Tincture",
-    truth_essence: "",
+    truth_essence: "Jaded Truth",
   }
   const messOpsGoodResult = ["Success! The potion bubbles and shimmers softly... you made the ", "Amazing work! The hues look amazing for the ", 
                              "Beautiful! Please teach me how to make the ", "Gorgeous masterpiece of a potion! You made the ", 
