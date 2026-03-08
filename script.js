@@ -192,7 +192,8 @@ if (document.getElementById("question")) {
         }
         else {
           ending("Congratulations, alchemist! You've completed your apprenticeship, and perhaps, you're a better alchemist than me...");
-        };
+        }
+      };
       box.appendChild(button);
     });
   }
