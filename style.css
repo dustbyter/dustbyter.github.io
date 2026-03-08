@@ -64,6 +64,31 @@ body {
   opacity: 1;
   transition: opacity 1s ease-out;
 }
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(228, 119, 83, 0.9);
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  z-index: 4000;
+  width: 350px;
+  font-family: "Forgore";
+}
+.hidden {
+  display: none;
+}
+.popupbutton {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 1.5rem;
+  background: DarkGoldenRod;
+  color: white;
+  border-radius: 8px;
+  font-family: "Forgore";
+}
 #dialoguetext {
   font-family: "Forgore";
   font-size: 1.75rem;
