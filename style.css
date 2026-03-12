@@ -181,6 +181,14 @@ body {
   text-align: center;
   font-family: "Forgore";
 }
+
+#counting{
+  font-family: "Forgore";
+  font-size: 1.75rem;
+  color: DarkGoldenRod;
+  min-height: 3em;
+}
+
 #overlayportrait {
   width: 150px;
   margin-bottom: 15px;
