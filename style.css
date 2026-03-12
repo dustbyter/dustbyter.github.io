@@ -42,6 +42,14 @@ body {
   border: 3px solid LightPink;
   max-width: 400px;
 }
+
+.counter{
+  font-family: "Forgore";
+  font-size: 1.75rem;
+  color: DarkGoldenRod;
+  min-height: 3em;
+}
+
 .heart {
   width: 40px;
   height: auto;
