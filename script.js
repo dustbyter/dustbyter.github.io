@@ -9,6 +9,7 @@ if (document.getElementById("dialoguetext")) {
   let typing = false; 
   let interval;
   let playerName = "";
+  let counter = 0;
 
   const text = document.getElementById("dialoguetext");
   const next = document.getElementById("nextbutton");
@@ -140,9 +141,10 @@ if (document.getElementById("question")) {
     questionText.textContent = q.prompt;
     displayOption(q);
   }
-
+  
   function increaseCounter(){
-    counting.textContent = 
+    counter += 1;
+    document.getElementById("counting").innerHTML = counter;
   }
 
   function givePotion(rewardName) {
