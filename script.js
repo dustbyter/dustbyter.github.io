@@ -9,7 +9,6 @@ if (document.getElementById("dialoguetext")) {
   let typing = false; 
   let interval;
   let playerName = "";
-  let counter = 0;
 
   const text = document.getElementById("dialoguetext");
   const next = document.getElementById("nextbutton");
@@ -142,11 +141,6 @@ if (document.getElementById("question")) {
     displayOption(q);
   }
   
-  function increaseCounter(){
-    counter += 1;
-    document.getElementById("counting").innerHTML = counter;
-  }
-
   function givePotion(rewardName) {
     const popup = document.getElementById("reward");
     popup.innerHTML = "";
@@ -176,7 +170,6 @@ if (document.getElementById("question")) {
       button.onclick = () => {
         if (index == q.answer) {
           givePotion(q.reward);
-          increaseCounter();
           setTimeout(() => {
             randMess1 = messOpsGoodResult[Math.floor(Math.random()*messOpsGoodResult.length)];
             potionName = potionNames[q.reward];
