@@ -142,7 +142,7 @@ if (document.getElementById("question")) {
   }
 
   function increaseCounter(){
-    counting.innerHTML + 1;
+    counting.textContent = 
   }
 
   function givePotion(rewardName) {
