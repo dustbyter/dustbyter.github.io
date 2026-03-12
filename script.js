@@ -141,6 +141,10 @@ if (document.getElementById("question")) {
     displayOption(q);
   }
 
+  function increaseCounter(){
+    counting.innerHTML + 1;
+  }
+
   function givePotion(rewardName) {
     const popup = document.getElementById("reward");
     popup.innerHTML = "";
@@ -170,12 +174,12 @@ if (document.getElementById("question")) {
       button.onclick = () => {
         if (index == q.answer) {
           givePotion(q.reward);
+          increaseCounter();
           setTimeout(() => {
             randMess1 = messOpsGoodResult[Math.floor(Math.random()*messOpsGoodResult.length)];
             potionName = potionNames[q.reward];
             result(randMess1 + potionName);
           }, 1000);
-           counting.innerHTML + 1;
         }
         else {
           loseLives();
