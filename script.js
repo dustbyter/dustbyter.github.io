@@ -175,7 +175,7 @@ if (document.getElementById("question")) {
             potionName = potionNames[q.reward];
             result(randMess1 + potionName);
           }, 1000);
-           counter.innerHTML + 1;
+           counting.innerHTML + 1;
         }
         else {
           loseLives();
